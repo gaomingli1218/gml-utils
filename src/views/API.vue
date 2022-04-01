@@ -2899,6 +2899,19 @@ export default {
               ],
             },
             {
+              name: "hello",
+              args: "str",
+              title: "拼接字符串",
+              desc: "",
+              params: [],
+              codes: [
+                `
+                GMLUtils.hello('world') // hello world
+                GMLUtils.hello('gml') // hello gml
+                `,
+              ],
+            },
+            {
               name: "subtract",
               args: "num1, num2",
               title: "减法运算",

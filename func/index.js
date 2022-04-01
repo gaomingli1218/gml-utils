@@ -128,6 +128,7 @@ var toInteger = require('./toInteger')
 var toNumber = require('./toNumber')
 var toNumberString = require('./toNumberString')
 var add = require('./add')
+var hello = require('./hello')
 var subtract = require('./subtract')
 var multiply = require('./multiply')
 var divide = require('./divide')
@@ -323,6 +324,7 @@ assign(GMLUtils, {
   toNumberString: toNumberString,
   toInteger: toInteger,
   add: add,
+  hello:hello,
   subtract: subtract,
   multiply: multiply,
   divide: divide,
